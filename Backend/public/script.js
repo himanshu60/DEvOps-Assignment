@@ -1,3 +1,4 @@
+const deployUrl="https://exact-space-jurc.onrender.com"
 document.addEventListener("DOMContentLoaded", () => {
   const jsonForm = document.getElementById("jsonForm");
   const jsonDataInput = document.getElementById("jsonData");
@@ -9,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const jsonData = jsonDataInput.value;
 
     try {
-      const response = await fetch("http://localhost:3000/submit", {
+      const response = await fetch(`${deployUrl}/submit`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
