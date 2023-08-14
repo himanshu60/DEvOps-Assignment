@@ -1,6 +1,6 @@
 ## Level - 1 (BASH): Find the largest log file in the computer (x.log) and truncate it to 100 lines
 
-## Search file combined query to find largest log file(First filer with .log then sort desc and get First 1)
+## Search file combined query to find largest log file(First filter with .log then sort desc and get First 1)
 Get-ChildItem -Recurse -Filter "*.log" | Sort-Object Length -Descending | Select-Object -First 1
 
 ## If you just find log query only
