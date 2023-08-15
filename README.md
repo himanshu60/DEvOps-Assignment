@@ -1,7 +1,43 @@
 # Exactspace-Assignment
 "JSON Form App: A lightweight web application built with Node.js for submitting and displaying JSON data. Input your JSON object, submit, and view the formatted response. Features include dynamic input/output boxes, responsive design, and error handling using Node.js backend and vanilla HTML, CSS, and JavaScript frontend."
 
-## deply :https://exact-space-jurc.onrender.com
+## Deployed Link:https://exact-space-jurc.onrender.com
+
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Express, Node.js
+
+## Features:
+```
+-"Create a user-friendly webpage with these capabilities:
+
+-Add a box where users can paste JSON data.
+-Check if the entered JSON is valid, then send it to a backend.
+-Show the key-value pairs from the JSON on the webpage."
+```
+
+## Start Project
+To run the project on your local machine, follow the steps below:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/himanshu60/DEvOps-Assignment.git
+  
+2. Install Dependencies:
+
+   ```bash
+   npm i 
+  
+3. Run the backend server:
+
+   ```bash
+   npm run start
+
+## API Endpoints
+The project exposes the following API endpoints:
+
+1. POST `/submit`: To post JSON-data
 
 # Home
 
